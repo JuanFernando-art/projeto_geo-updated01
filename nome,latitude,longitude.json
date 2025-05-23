@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.633308, -23.55052]
+      },
+      "properties": {
+        "nome": "Praça da Sé",
+        "latitude": -23.55052,
+        "longitude": -46.633308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.210487, -22.951916]
+      },
+      "properties": {
+        "nome": "Cristo Redentor",
+        "latitude": -22.951916,
+        "longitude": -43.210487
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.510833, -12.971111]
+      },
+      "properties": {
+        "nome": "Pelourinho",
+        "latitude": -12.971111,
+        "longitude": -38.510833
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.230056, -22.91216]
+      },
+      "properties": {
+        "nome": "Maracanã",
+        "latitude": -22.91216,
+        "longitude": -43.230056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.156389, -22.948611]
+      },
+      "properties": {
+        "nome": "Pão de Açúcar",
+        "latitude": -22.948611,
+        "longitude": -43.156389
+      }
+    }
+  ]
+}

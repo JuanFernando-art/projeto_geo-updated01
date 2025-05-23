@@ -1,0 +1,27 @@
+<locais>
+    <local>
+        <nome>Praça da Sé</nome>
+        <latitude>-23.550520</latitude>
+        <longitude>-46.633308</longitude>
+    </local>
+    <local>
+        <nome>Cristo Redentor</nome>
+        <latitude>-22.951916</latitude>
+        <longitude>-43.210487</longitude>
+    </local>
+    <local>
+        <nome>Pelourinho</nome>
+        <latitude>-12.971111</latitude>
+        <longitude>-38.510833</longitude>
+    </local>
+    <local>
+        <nome>Maracanã</nome>
+        <latitude>-22.912160</latitude>
+        <longitude>-43.230056</longitude>
+    </local>
+    <local>
+        <nome>Pão de Açúcar</nome>
+        <latitude>-22.948611</latitude>
+        <longitude>-43.156389</longitude>
+    </local>
+</locais>

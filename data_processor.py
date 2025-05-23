@@ -33,10 +33,19 @@ class DataProcessor:
             nome = item.findtext("nome") or "Sem nome"
             if lat and lon:
                 point = Point(float(lon), float(lat))
-                features.append({"nome": nome, "geometry": point})
+                features.append({
+                    "nome": nome,
+                    "latitude": float(lat),      # <-- adiciona latitude
+                    "longitude": float(lon),     # <-- adiciona longitude
+                    "geometry": point
+                })
+
         if not features:
             raise ValueError("Nenhum dado geoespacial encontrado no XML.")
-        self.data = gpd.GeoDataFrame(features, crs="EPSG:4326")
+
+        gdf = gpd.GeoDataFrame(features, crs="EPSG:4326")
+        gdf.set_geometry('geometry', inplace=True)
+        self.data = gdf
 
     def get_data(self):
         if self.data is None:

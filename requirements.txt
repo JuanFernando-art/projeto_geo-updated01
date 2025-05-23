@@ -1,0 +1,7 @@
+gradio
+pandas
+geopandas
+folium
+shapely
+tabulate
+lxml
